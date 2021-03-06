@@ -45,7 +45,7 @@ class Main extends PluginBase {
      */
     private $util;
 
-    public const PREFIX = C::GRAY . "[" . C::GOLD . "FlyPE". C::GRAY . "] " . C::RESET;
+    public const PREFIX = C::BOLD C::DARK_GRAY . "[" . C::RESET C::AQUA . "Sky" . C::YELLOW . "Fly". C::BOLD C::DARK_GRAY . "] " . C::RESET C::GREEN . ">";
     
     public const CONFIG_VERSION = 4.0;
     
